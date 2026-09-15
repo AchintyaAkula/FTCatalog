@@ -12,6 +12,7 @@ hardware = { group = "org.firstinspires.ftc", name = "Hardware", version.ref = "
 ftc-common = { group = "org.firstinspires.ftc", name = "FtcCommon", version.ref = "sdk" }
 vision = { group = "org.firstinspires.ftc", name = "Vision", version.ref = "sdk" }
 appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+robotcontroller = { group = "com.qualcomm.ftcrobotcontroller", name = "FtcRobotController", version.ref = "sdk" }
 
 [bundles]
-sdk = ["inspection", "blocks", "robot-core", "robot-server", "on-bot-java", "hardware", "ftc-common", "vision", "appcompat"]
+sdk = ["inspection", "blocks", "robot-core", "robot-server", "on-bot-java", "hardware", "ftc-common", "vision", "appcompat", "robotcontroller"]
