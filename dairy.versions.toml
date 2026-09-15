@@ -1,0 +1,8 @@
+[versions]
+sloth = "0.2.4"
+
+[libraries]
+sloth = { group = "dev.frozenmilk.sinister", name = "Sloth", version.ref = "sloth" }
+
+[plugins]
+sloth-load = { id = "dev.frozenmilk.sinister.sloth.load", version.ref = "sloth" }
