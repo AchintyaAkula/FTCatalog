@@ -1,5 +1,5 @@
 [versions]
-sdk = "11.1.0"
+sdk = "12.0.0"
 appcompat = "1.2.0"
 
 [libraries]
