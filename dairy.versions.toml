@@ -1,6 +1,6 @@
 [versions]
 sloth = "0.3.2"
-teamcode = "12.0.0-1.2.0"
+teamcode = "12.0.0-1.2.2"
 
 [libraries]
 sloth = { group = "dev.frozenmilk.sinister", name = "Sloth", version.ref = "sloth" }
